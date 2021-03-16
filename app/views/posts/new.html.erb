@@ -1,0 +1,6 @@
+<!-- <h1>This title is outside the frame</h1> -->
+
+<%= turbo_frame_tag 'new_post', class: 'mb-5' do %>
+  <h5 class='mt-5'>New post</h5>
+  <%= render 'form', post: @post %>
+<% end %>
