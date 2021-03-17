@@ -3,11 +3,11 @@
   <h1 class="mb-4">Posts list</h1>
 
   <div class="d-flex">
-    <%#= turbo_frame_tag 'posts', class: 'd-flex w-50 flex-wrap' do %>
+    <%= turbo_frame_tag 'posts', class: 'd-flex w-50 flex-wrap' do %>
       <% @posts.each do |post| %>
         <%= render 'post_item', post: post %>
       <% end %>
-    <%# end %>  
+    <% end %>
 
     <%= turbo_frame_tag 'show', class: 'w-50' %>
   </div>
