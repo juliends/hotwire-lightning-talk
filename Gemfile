@@ -21,10 +21,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
-gem 'autoprefixer-rails'
-gem 'font-awesome-sass', '~> 5.12.0'
-gem 'simple_form'
 
+gem 'simple_form'
 gem 'turbo-rails'
 
 # Reduces boot times through caching; required in config/boot.rb
