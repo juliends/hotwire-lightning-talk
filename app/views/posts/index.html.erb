@@ -2,7 +2,7 @@
   <%= turbo_stream_from 'posts' %>
   <h1 class="mb-4">Posts list</h1>
 
-  <div class="d-flex">
+  <div class='d-flex'>
     <%= turbo_frame_tag 'posts', class: 'd-flex w-50 flex-wrap' do %>
       <% @posts.each do |post| %>
         <%= render 'post_item', post: post %>
